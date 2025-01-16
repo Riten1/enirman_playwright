@@ -1,10 +1,9 @@
 import { Page } from "@playwright/test";
-import Dashboard from "./Dashboard";
-
 export default class LoginPage {
   private readonly emailInputSelector = "#email";
   private readonly passwordInputSelector = "#password";
   private readonly loginButtonSelector = ".primary-btn";
+  
   constructor(private page: Page) {}
 
   async gotoEnirmanLoginPage() {
@@ -21,7 +20,5 @@ export default class LoginPage {
 
   async clickOnLoginBtn() {
     await this.page.locator(this.loginButtonSelector).click();
-
-    return Dashboard;
   }
 }

@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3299","test1","chromium","Thu Jan 16 12:58:00 GMT+05:45 2025","passed","Thu Jan 16 12:58:03 GMT+05:45 2025","","loginTest.spec.ts","",""
+"","3439","test1","firefox","Thu Jan 16 12:58:00 GMT+05:45 2025","passed","Thu Jan 16 12:58:03 GMT+05:45 2025","","loginTest.spec.ts","",""
+"","3448","test1","webkit","Thu Jan 16 12:58:00 GMT+05:45 2025","passed","Thu Jan 16 12:58:03 GMT+05:45 2025","","loginTest.spec.ts","",""
